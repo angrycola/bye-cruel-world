@@ -30,26 +30,31 @@ export default class AddCharacter extends Component {
 		return (
 			<div>
 				<form onSubmit={ this.handleSubmit }>
+					Name:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='name'
 						value={ name }
-					/>
+					/><br />
+					Description:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='description'
 						value={ description }
-					/>
+					/><br />
+					Killed by:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='killedBy'
 						value={ killedBy }
-					/>
+					/><br />
+					Taken by:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='takenBy'
 						value={ takenBy }
-					/>
+					/><br />
+					Cause of death:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='causeOfDeath'

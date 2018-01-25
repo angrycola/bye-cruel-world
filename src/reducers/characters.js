@@ -6,6 +6,8 @@ export default function(state=[], action) {
 		return action.payload;
 	case C.ADD_CHARACTER:
 		return [...state, action.payload ];
+	case C.REMOVE_CHARACTER:
+		return state.filter(item => item.id !== action.payload);
 	default: return state;
 	}
 }
