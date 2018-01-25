@@ -11,8 +11,8 @@ const itemCharacter = ({ character, removeCharacter }) => {
 				{ name }
 			</div>
 			<div className="item__body">
-				Description: { description }<br />
-				Life was taken by { takenBy } who murderered { name } by { killedBy } which cause { causeOfDeath }
+				{ description }<br />
+				Life was taken by <span className='item__details'>{ takenBy }</span> who murderered <span className='item__details'>{ name }</span> by <span className='item__details'>{ killedBy }</span> which cause the death by <span className='item__details'>{ causeOfDeath }</span>.
 			</div>
 			<button className='item__button--flat'
 				onClick={  () => removeCharacter(id) }>Remove</button>

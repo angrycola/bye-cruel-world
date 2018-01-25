@@ -2,6 +2,7 @@ import C from '../constants';
 import data from '../data/index.json';
 import shortid from 'shortid';
 
+
 //CHARACTERS
 export const initialData = () => ({ type: C.INDEX_CHARACTERS, payload: data.characters });
 export const addCharacter = character => {
@@ -14,3 +15,4 @@ export const filterName = name => ({ type: C.FILTER_NAME, payload: name });
 export const filterCauseOfDeath = causeOfDeath => ({ type: C.FILTER_CAUSE_OF_DEATH, payload: causeOfDeath });
 export const filterTakenBy = takenBy => ({ type: C.FILTER_TAKEN_BY, payload: takenBy });
 export const filterKilledBy = killedBy => ({ type: C.FILTER_KILLED_BY, payload: killedBy });
+export const filterByTerm = searchTerm => ({ type: C.FILTER_BY_TERM, payload: searchTerm });

@@ -1,19 +1,59 @@
 {
 	"characters": [{
-			"name": "John Snow",
-			"description": "description",
+			"name": "Rickard Karstark",
+			"description": "Rickard Karstark is the Lord of Karhold and the head of House Karstark, a vassal family to House Stark of Winterfell.",
 			"causeOfDeath": "execution",
 			"killedBy": "sword",
-			"takenBy": "Aria Stark",
+			"takenBy": "Robb Stark",
 			"id": "SJwDJ0IHf"
 		},
 		{
-			"name": "Darth Vaider",
-			"description": "description",
-			"causeOfDeath": "punishment",
-			"killedBy": "knife",
-			"takenBy": "Rob Stark",
+			"name": "Jon Arryn",
+			"description": "Jon Arryn was the Lord of the Eyrie and the head of House Arryn, one of the Great Houses of Westeros.",
+			"causeOfDeath": "poison",
+			"killedBy": "poison",
+			"takenBy": "Lysa",
 			"id": "Hye51CLrz"
+		},
+		{
+			"name": "Ser Hugh",
+			"description": "Hugh served as Lord Jon Arryn's squire for four years before Jon Arryn's death.",
+			"causeOfDeath": "stabbing",
+			"killedBy": "sword",
+			"takenBy": "Mountain",
+			"id": "rk621mPrG"
+		},
+		{
+			"name": "Maester Cressen",
+			"description": "Cressen was the Maester of Dragonstone and a servant of Stannis Baratheon.",
+			"causeOfDeath": "suicide",
+			"killedBy": "poison",
+			"takenBy": "Maester Cressen",
+			"id": "HJr5kXwSf"
+		},
+		{
+			"name": "Torrhen Karstark",
+			"description": "Torrhen is a son of Lord Rickard Karstark, the Lord of Karhold.",
+			"causeOfDeath": "stabbing",
+			"killedBy": "sword",
+			"takenBy": "Jamie Lannister",
+			"id": "r1rp1mDSM"
+		},
+		{
+			"name": "Janos Slynt",
+			"description": "Janos Slynt is the commander of the King Landing City Watch, with almost two thousand men under his command.",
+			"causeOfDeath": "execution",
+			"killedBy": "sword",
+			"takenBy": "Jon Snow",
+			"id": "Hyc5RKwBf"
+		},
+		{
+			"name": "Karl Tanner",
+			"description": "Karl Tanner was a brother of the Night Watch who had gone north of the Wall on Lord Commander Mormont's Great Ranging.",
+			"causeOfDeath": "stabbing",
+			"killedBy": "sword",
+			"takenBy": "Jon Snow",
+			"id": "rJvoCYDHz"
 		}
 	]
 }

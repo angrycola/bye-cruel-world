@@ -7,7 +7,10 @@ const mapStateToProps = ({ characters, filters }) => {
 		(filters.name === '' || character.name === filters.name) &&
 		(filters.causeOfDeath === '' || character.causeOfDeath === filters.causeOfDeath) &&
 		(filters.takenBy === '' || character.takenBy === filters.takenBy) &&
-		(filters.killedBy === '' || character.killedBy === filters.killedBy)
+		(filters.killedBy === '' || character.killedBy === filters.killedBy) &&
+		(filters.searchTerm === '' || [ character.description.toLowerCase(), character.name.toLowerCase()]
+			.join(' ')
+			.includes(filters.searchTerm.toLowerCase()))
 	)});
 };
 

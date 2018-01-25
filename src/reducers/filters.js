@@ -4,7 +4,8 @@ const filter = {
 	name: '',
 	takenBy: '',
 	killedBy: '',
-	causeOfDeath: ''
+	causeOfDeath: '',
+	searchTerm: ''
 };
 
 export default function(state=filter, action) {
@@ -17,6 +18,8 @@ export default function(state=filter, action) {
 		return { ...state, killedBy: action.payload };
 	case C.FILTER_CAUSE_OF_DEATH:
 		return { ...state, causeOfDeath: action.payload };
+	case C.FILTER_BY_TERM:
+		return { ...state, searchTerm: action.payload };
 	default: return state;
 	}
 }

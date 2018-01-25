@@ -20,3 +20,6 @@
 	background-color: darkgrey;
 	cursor: pointer;
 }
+.item__details {
+	background-color: #F1F1F1;
+}
