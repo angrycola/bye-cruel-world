@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import reducer from './reducer';
+import characters from './characters';
 
 export default combineReducers({
-	reducer
+	characters
 });

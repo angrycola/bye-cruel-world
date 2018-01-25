@@ -1,0 +1,19 @@
+{
+	"characters": [{
+			"name": "John Snow",
+			"description": "description",
+			"causeOfDeath": "poison",
+			"killedBy": "item",
+			"takenBy": "murderer",
+			"id": "SJwDJ0IHf"
+		},
+		{
+			"name": "Some guy",
+			"description": "description",
+			"causeOfDeath": "knife",
+			"killedBy": "item",
+			"takenBy": "murderer",
+			"id": "Hye51CLrz"
+		}
+	]
+}
