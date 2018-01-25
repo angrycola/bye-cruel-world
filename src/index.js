@@ -8,6 +8,8 @@ import './styles/index.css';
 import App from './components/App';
 import { store } from './store';
 import { initialData } from './actions';
+
+
 store.dispatch(initialData());
 
 ReactDOM.render(

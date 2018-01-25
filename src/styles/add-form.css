@@ -1,0 +1,18 @@
+.add-char-wrapper {
+	max-width: 50rem;
+	border: 1px solid darkgrey;
+}
+.add-char__header {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 1rem;
+}
+.add-char-wrapper > form > input {
+	padding: .4rem 2rem;
+	width: 100%;
+}
+.add_char__button--flat {
+	width: 100%;
+	background-color: darkgrey;
+	cursor: pointer;
+}

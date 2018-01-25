@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../../styles/add-form.css';
 
 export default class AddCharacter extends Component {
 	state={
@@ -28,39 +29,40 @@ export default class AddCharacter extends Component {
 		const { causeOfDeath, description, killedBy, name, takenBy } = this.state;
 
 		return (
-			<div>
-				<form onSubmit={ this.handleSubmit }>
-					Name:
+			<div className='add-char-wrapper'>
+				<div className='add-char__header'>Add New Character</div>
+				<form className='add-character__form' onSubmit={ this.handleSubmit }>
 					<input
 						onChange={ this.handleChange }
 						type='text' name='name'
+						placeholder='name'
 						value={ name }
 					/><br />
-					Description:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='description'
 						value={ description }
+						placeholder='description'
 					/><br />
-					Killed by:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='killedBy'
 						value={ killedBy }
+						placeholder='killed by'
 					/><br />
-					Taken by:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='takenBy'
 						value={ takenBy }
+						placeholder='taken by'
 					/><br />
-					Cause of death:
 					<input
 						onChange={ this.handleChange }
 						type='text' name='causeOfDeath'
 						value={ causeOfDeath }
-					/>
-					<button disabled={ 0 }>Send</button>
+						placeholder='cause of death'
+					/><br />
+					<button className='add_char__button--flat' disabled={ 0 }>Add</button>
 				</form>
 			</div>
 		);

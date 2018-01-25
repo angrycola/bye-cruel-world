@@ -11,3 +11,12 @@ body {
 	font-size: 2rem;
 	font-family: Helvetica, Arial, sans-serif;
 }
+.root-wrapper {
+	margin: 0 auto;
+	width: 80%;
+}
+.list-wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 1rem;
+}

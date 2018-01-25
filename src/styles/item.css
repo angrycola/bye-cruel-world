@@ -1,0 +1,22 @@
+.item-wrapper {
+	max-width: 50rem;
+	min-height: 20rem;
+	border: 1px solid darkgrey;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.item__header {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 1rem;
+	border-bottom: 1px solid darkgrey;
+}
+.item__body {
+	padding: .4rem 2rem;
+}
+.item__button--flat {
+	width: 100%;
+	background-color: darkgrey;
+	cursor: pointer;
+}

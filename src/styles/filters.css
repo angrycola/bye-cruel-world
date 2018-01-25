@@ -1,0 +1,12 @@
+.filters-wrapper {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 1rem;
+}
+.filters-wrapper > div > select, .searchTerm {
+	background-color: lightgrey;
+	padding: .5rem;
+	margin: 1rem 0 2rem 0;
+	width: 100%;
+	cursor: pointer;
+}
