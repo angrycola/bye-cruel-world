@@ -2,17 +2,17 @@
 	"characters": [{
 			"name": "John Snow",
 			"description": "description",
-			"causeOfDeath": "poison",
-			"killedBy": "item",
-			"takenBy": "murderer",
+			"causeOfDeath": "execution",
+			"killedBy": "sword",
+			"takenBy": "Aria Stark",
 			"id": "SJwDJ0IHf"
 		},
 		{
-			"name": "Some guy",
+			"name": "Darth Vaider",
 			"description": "description",
-			"causeOfDeath": "knife",
-			"killedBy": "item",
-			"takenBy": "murderer",
+			"causeOfDeath": "punishment",
+			"killedBy": "knife",
+			"takenBy": "Rob Stark",
 			"id": "Hye51CLrz"
 		}
 	]
