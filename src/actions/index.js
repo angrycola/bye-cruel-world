@@ -1,12 +1,25 @@
-import C from '../constants';
-import data from '../data/index.json';
+import axios from 'axios';
 import shortid from 'shortid';
 
+import C from '../constants';
+import data from '../data/index.json';
+
+const URL = 'http://fakeapiwontwork.com/';
+
+//POST REQUEST
+const sendData = data => {
+	axios.post(`${ URL }/api/characters`, { data })
+		.then(res => console.log('Response', res))
+		.catch(err => console.log('Errorss', err)
+	);
+}
 
 //CHARACTERS
 export const initialData = () => ({ type: C.INDEX_CHARACTERS, payload: data.characters });
-export const addCharacter = character => {
-	return ({ type: C.ADD_CHARACTER, payload: { ...character, id: shortid.generate() } });
+export const addCharacter = (character) => {
+	const payload = { ...character, id: shortid.generate() }
+	sendData(payload);
+	return ({ type: C.ADD_CHARACTER, payload });
 };
 export const removeCharacter = id => ({ type: C.REMOVE_CHARACTER, payload: id });
 
