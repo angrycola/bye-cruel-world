@@ -16,3 +16,7 @@
 	background-color: darkgrey;
 	cursor: pointer;
 }
+.add_char__input--error {
+	background-color: #FDD5D1;
+
+}
